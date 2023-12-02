@@ -1,0 +1,12 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start-service": "sudo systemctl start rabbitmq-server",
+    "stop-service": "sudo systemctl stop rabbitmq-server",
+    "stat-service": "sudo rabbitmq-diagnostics status"
+  },
+  "author": "",
+  "license": "ISC"
+}
