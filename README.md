@@ -47,6 +47,12 @@ Example configuration file can be found [here](https://github.com/rabbitmq/rabbi
 - **Ubuntu:** `/etc/rabbitmq/`
 - **Windows:** `%APPDATA%\RabbitMQ\`
 
+### Enable RabbitMQ Management Console
+
+```bash
+sudo rabbitmq-plugins enable rabbitmq_management
+```
+
 ### Access to server
 
 ```
