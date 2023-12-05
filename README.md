@@ -39,6 +39,14 @@ sudo rabbitmq-diagnostics ping
 sudo rabbitmq-diagnostics status
 ```
 
+### Configuration
+
+Example configuration file can be found [here](https://github.com/rabbitmq/rabbitmq-server/blob/main/deps/rabbit/docs/rabbitmq.conf.example).  
+[Location](https://www.rabbitmq.com/configure.html#config-location) of rabbitmq.conf:
+
+- **Ubuntu:** `/etc/rabbitmq/`
+- **Windows:** `%APPDATA%\RabbitMQ\`
+
 ### Access to server
 
 ```
