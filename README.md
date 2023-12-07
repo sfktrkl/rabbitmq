@@ -53,6 +53,12 @@ Example configuration file can be found [here](https://github.com/rabbitmq/rabbi
 sudo rabbitmq-plugins enable rabbitmq_management
 ```
 
+### Enable consistent hash exchange
+
+```bash
+sudo rabbitmq-plugins enable rabbitmq_consistent_hash_exchange
+```
+
 ### Access to server
 
 ```
