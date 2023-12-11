@@ -82,6 +82,18 @@ sudo rabbitmqctl start_app
 sudo rabbitmqctl cluster_status
 ```
 
+### Enable shovel plugin
+
+```bash
+sudo rabbitmq-plugins enable rabbitmq_shovel
+```
+
+### Enable shovel management
+
+```bash
+sudo rabbitmq-plugins enable rabbitmq_shovel_management
+```
+
 ### Access to server
 
 ```
