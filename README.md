@@ -59,6 +59,29 @@ sudo rabbitmq-plugins enable rabbitmq_management
 sudo rabbitmq-plugins enable rabbitmq_consistent_hash_exchange
 ```
 
+### Creating a cluster
+
+```bash
+sudo rabbitmqctl stop_app
+sudo rabbitmqctl reset
+sudo rabbitmqctl join_cluster rabbit@rabbit1
+sudo rabbitmqctl start_app
+```
+
+### Breaking up a cluster
+
+```bash
+sudo rabbitmqctl stop_app
+sudo rabbitmqctl reset
+sudo rabbitmqctl start_app
+```
+
+### Cluster status
+
+```bash
+sudo rabbitmqctl cluster_status
+```
+
 ### Access to server
 
 ```
