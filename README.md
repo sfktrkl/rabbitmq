@@ -94,6 +94,18 @@ sudo rabbitmq-plugins enable rabbitmq_shovel
 sudo rabbitmq-plugins enable rabbitmq_shovel_management
 ```
 
+### Enable federation plugin
+
+```bash
+sudo rabbitmq-plugins enable rabbitmq_federation
+```
+
+### Enable federation management
+
+```bash
+sudo rabbitmq-plugins enable rabbitmq_federation_management
+```
+
 ### Access to server
 
 ```
